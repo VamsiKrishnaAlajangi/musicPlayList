@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.responsive-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #152850;
+  min-height: 900px;
+}
+.image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 86px;
+}
+.singer-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+.singer {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 12px;
+  font-size: 24px;
+}
+.playlist-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 46px;
+  padding-right: 46px;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+.songs-playlist {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.track-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.input-search-container {
+  align-self: center;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+}
+.search-icon {
+  color: #ffffff;
+  padding-right: 4px;
+  margin-left: 8px;
+  align-self: flex-end;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.no-song-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.no-songs {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+}

@@ -1,0 +1,44 @@
+.track-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.image-name-container {
+  display: flex;
+}
+.duration-container {
+  display: flex;
+}
+.image {
+  height: 100px;
+  width: 150px;
+  margin-right: 26px;
+}
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+}
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.duration {
+  color: #ffffff;
+  font-family: 'Roboto';
+  align-self: center;
+  margin-right: 36px;
+}
+.delete-icon {
+  color: #ffffff;
+  align-self: center;
+  cursor: pointer;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
